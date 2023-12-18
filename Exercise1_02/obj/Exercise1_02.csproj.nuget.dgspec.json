@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/apple/Documents/csharp/MyConsoleApp/MyConsoleApp.csproj": {}
+    "/Users/apple/Documents/csharp/Exercise1_02/Exercise1_02.csproj": {}
   },
   "projects": {
-    "/Users/apple/Documents/csharp/MyConsoleApp/MyConsoleApp.csproj": {
+    "/Users/apple/Documents/csharp/Exercise1_02/Exercise1_02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/apple/Documents/csharp/MyConsoleApp/MyConsoleApp.csproj",
-        "projectName": "MyConsoleApp",
-        "projectPath": "/Users/apple/Documents/csharp/MyConsoleApp/MyConsoleApp.csproj",
+        "projectUniqueName": "/Users/apple/Documents/csharp/Exercise1_02/Exercise1_02.csproj",
+        "projectName": "Exercise1_02",
+        "projectPath": "/Users/apple/Documents/csharp/Exercise1_02/Exercise1_02.csproj",
         "packagesPath": "/Users/apple/.nuget/packages/",
-        "outputPath": "/Users/apple/Documents/csharp/MyConsoleApp/obj/",
+        "outputPath": "/Users/apple/Documents/csharp/Exercise1_02/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
