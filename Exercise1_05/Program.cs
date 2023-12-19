@@ -22,3 +22,12 @@ new DateTime(2020, 12, 31).AddDays(2).ToShortDateString());
 
 Console.Write("\n La date actuelle est de: {0}", DateTime.Now.Date);
 Console.WriteLine("\n Actuellement il est: {0} heures {1}", DateTime.Now.Hour, DateTime.Now.Minute);
+
+// formating date
+
+var frenchDate = new DateTime(2023, 12, 19);
+Console.WriteLine(frenchDate.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("fr-FR")));
+
+
+var usDate = new DateTime(2023, 12, 19);
+Console.WriteLine(usDate.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("en-Us")));
