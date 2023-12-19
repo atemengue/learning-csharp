@@ -1,0 +1,15 @@
+/Users/apple/Documents/csharp/Exercise1_04/bin/Debug/net7.0/Exercise1_04
+/Users/apple/Documents/csharp/Exercise1_04/bin/Debug/net7.0/Exercise1_04.deps.json
+/Users/apple/Documents/csharp/Exercise1_04/bin/Debug/net7.0/Exercise1_04.runtimeconfig.json
+/Users/apple/Documents/csharp/Exercise1_04/bin/Debug/net7.0/Exercise1_04.dll
+/Users/apple/Documents/csharp/Exercise1_04/bin/Debug/net7.0/Exercise1_04.pdb
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/Exercise1_04.csproj.AssemblyReference.cache
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/Exercise1_04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/Exercise1_04.AssemblyInfoInputs.cache
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/Exercise1_04.AssemblyInfo.cs
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/Exercise1_04.csproj.CoreCompileInputs.cache
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/Exercise1_04.dll
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/refint/Exercise1_04.dll
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/Exercise1_04.pdb
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/Exercise1_04.genruntimeconfig.cache
+/Users/apple/Documents/csharp/Exercise1_04/obj/Debug/net7.0/ref/Exercise1_04.dll
