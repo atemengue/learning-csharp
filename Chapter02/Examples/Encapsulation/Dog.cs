@@ -50,6 +50,10 @@ namespace Chapter02.Examples.Encapsulation
       _owner = value;
     }
   }
+
+  public void Sit() { }
+
+  public void Bark() { }
 }
   
 }

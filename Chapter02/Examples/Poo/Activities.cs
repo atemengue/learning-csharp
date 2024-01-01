@@ -3,6 +3,19 @@ using System;
 namespace Chapter02.Examples.Poo
 {
 
+  public interface IWorker
+  {
+    void Work();
+  }
+
+  public class Ant : IWorker
+  {
+    public void Work()
+    {
+      Console.WriteLine("Ant is working hard.")
+    }
+  }
+
   public class LoginService
   {
     private string[] _usernames;
@@ -16,7 +29,7 @@ namespace Chapter02.Examples.Poo
     }
   }
 
-  public abstract class Human
+  public abstract class Human : IWorker
   {
     public string Name { get; }
     public int Age { get; }

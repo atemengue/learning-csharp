@@ -8,4 +8,4 @@ namespace Chapter02.Exercises.Interaces
     double Area { get; }
   }
 
-}
+} 
