@@ -1,9 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Chapter04.Exercises.Exercis01;
 
-namespace Chapter04.Exercises.Exercis01
+namespace Chapter04.Exercises.Exercise01.TabExample
 {
 
   public class Tab
