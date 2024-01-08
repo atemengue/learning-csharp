@@ -5,6 +5,7 @@ using Chapter04.Exercises.Exercise01.QueueExample;
 using Chapter04.Exercises.Exercise01.TabExample;
 using Chapter04.Exercises.Exercise01.StackExample;
 using Chapter04.Exercises.Exercise01.HashSetExamples;
+using Chapter04.Exercises.Exercise01.DictionnaryExamples;
 
 namespace Chapter04.Exercises.Exercise01
 {
@@ -98,6 +99,7 @@ namespace Chapter04.Exercises.Exercise01
       // RunQueueExample();
       // RunStackExample();
       // HashSetExample.RunHashSetExamples(); 
+      DictionnaryExample.RunDictionnaryExample();
     }
 
 
