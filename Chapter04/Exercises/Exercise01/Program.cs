@@ -3,12 +3,32 @@ using System.Collections;
 using System.Collections.Generic;
 using Chapter04.Exercises.Exercise01.QueueExample;
 using Chapter04.Exercises.Exercise01.TabExample;
+using Chapter04.Exercises.Exercise01.StackExample;
 
 namespace Chapter04.Exercises.Exercise01
 {
 
   public static class Program
   {
+
+    public static void RunStackExample()
+    {
+      var undoStack = new UndoStack();
+      var editor = new TextEditor(undoStack);
+
+      editor.EditText("One day, ");
+      editor.EditText("in a  ");
+      editor.EditText("city");
+      editor.EditText("near by");
+
+      undoStack.Undo();
+      undoStack.Undo();
+
+      editor.EditText("land ");
+      editor.EditText("far far away");
+
+      Console.ReadLine();
+    }
 
     public static void RunQueueExample()
     {
@@ -74,7 +94,8 @@ namespace Chapter04.Exercises.Exercise01
     public static void Main()
     {
       // RunTableExample();
-      RunQueueExample();
+      // RunQueueExample();
+      RunStackExample();
     }
 
 
