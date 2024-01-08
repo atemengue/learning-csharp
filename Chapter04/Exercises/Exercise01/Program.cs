@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Chapter04.Exercises.Exercise01.QueueExample;
 using Chapter04.Exercises.Exercise01.TabExample;
 using Chapter04.Exercises.Exercise01.StackExample;
+using Chapter04.Exercises.Exercise01.HashSetExamples;
 
 namespace Chapter04.Exercises.Exercise01
 {
@@ -95,7 +96,8 @@ namespace Chapter04.Exercises.Exercise01
     {
       // RunTableExample();
       // RunQueueExample();
-      RunStackExample();
+      // RunStackExample();
+      // HashSetExample.RunHashSetExamples(); 
     }
 
 
