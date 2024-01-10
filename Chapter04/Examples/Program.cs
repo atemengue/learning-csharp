@@ -4,6 +4,7 @@
 public class Solution {
 
   public static void Main() {
-    LinqSelectExamples.RunLinqSelectExamples();
+    // LinqSelectExamples.RunLinqSelectExamples();
+    LinqSelectManyExamples.RunLinqSelectManyExamples();
   }
 }
