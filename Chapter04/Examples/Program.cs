@@ -1,10 +1,13 @@
 ﻿using Chapter04.Examples;
 
 
-public class Solution {
+public class Solution
+{
 
-  public static void Main() {
+  public static void Main()
+  {
     // LinqSelectExamples.RunLinqSelectExamples();
-    LinqSelectManyExamples.RunLinqSelectManyExamples();
+    // LinqSelectManyExamples.RunLinqSelectManyExamples();
+    LinqWhereExamples.RunLinqWhereExamples();
   }
 }
