@@ -10,6 +10,7 @@ public class Solution
     // LinqSelectManyExamples.RunLinqSelectManyExamples();
     // LinqWhereExamples.RunLinqWhereExamples();
     // ListMultipleEnumeration.RundListMultipleEnumeration();
-    LinqOrderByExamples.RunLinqOrderByExamples();
+    // LinqOrderByExamples.RunLinqOrderByExamples();
+    LinqThenByExamples.RunLinqThenByExamples();
   }
 }
