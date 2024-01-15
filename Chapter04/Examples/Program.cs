@@ -12,6 +12,7 @@ public class Solution
     // ListMultipleEnumeration.RundListMultipleEnumeration();
     // LinqOrderByExamples.RunLinqOrderByExamples();
     // LinqThenByExamples.RunLinqThenByExamples();
-    LinqSkipTakeExamples.RunLinqSkipTakeExample();
+    // LinqSkipTakeExamples.RunLinqSkipTakeExample();
+    LinqGroupByExamples.RunLinqGroupByExamples();
   }
 }
