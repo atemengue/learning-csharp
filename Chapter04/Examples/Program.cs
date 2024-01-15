@@ -13,6 +13,7 @@ public class Solution
     // LinqOrderByExamples.RunLinqOrderByExamples();
     // LinqThenByExamples.RunLinqThenByExamples();
     // LinqSkipTakeExamples.RunLinqSkipTakeExample();
-    LinqGroupByExamples.RunLinqGroupByExamples();
+    // LinqGroupByExamples.RunLinqGroupByExamples();
+    LinqAggregationExamples.RunLinqAggregationExamples();
   }
 }
