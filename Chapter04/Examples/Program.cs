@@ -14,6 +14,7 @@ public class Solution
     // LinqThenByExamples.RunLinqThenByExamples();
     // LinqSkipTakeExamples.RunLinqSkipTakeExample();
     // LinqGroupByExamples.RunLinqGroupByExamples();
-    LinqAggregationExamples.RunLinqAggregationExamples();
+    // LinqAggregationExamples.RunLinqAggregationExamples();
+    LinqAllAnyExamples.RunLinqAllAnyExamples();
   }
 }
