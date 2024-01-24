@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Exercises.BubbleSort
 {
-  public static class BubbleSort
+  public class BubbleSort
   {
     public static void Main()
     {
@@ -13,51 +13,56 @@ namespace Exercises.BubbleSort
       // get array size
       int arraySize = Int32.Parse(Console.ReadLine());
       // create empty array
+
+      int[] array = RamdomizedArray(arraySize);
+
+      PrintArray(array);
+      Console.WriteLine("")
+
+      int[] sortedArray = BubbleSortArray(array);
+      PrintArray(sortedArray);
+
+    }
+
+    public static int[] RamdomizedArray(int arraySize)
+    {
+
       int[] arrayNumber = new int[arraySize];
-
       // add elements on arrays
-
       for (var i = 0; i < arrayNumber.Length; i++)
       {
         Random randomValue = new Random();
         arrayNumber[i] = randomValue.Next(0, 300);
       }
 
-      // print table
+      return arrayNumber;
 
-      for (var i = 0; i < arrayNumber.Length; i++)
+    }
+
+    // BubbleSortArray
+    public static int[] BubbleSortArray(int[] array)
+    {
+      int temp = 0;
+      for (var j = 0; j < array.Length - 1; j++)
       {
-        Console.Write(arrayNumber[i]);
-        Console.Write("  ");
-      }
-
-      // BubleSort
-
-      for (var i = 0; i < arrayNumber.Length; i++)
-      {
-        int temp = 0;
-        for (var j = 0; j < arrayNumber.Length - 1; j++)
+        if (array[j] > array[j + 1])
         {
-          if (arrayNumber[j] > arrayNumber[j + 1])
-          {
-            temp = arrayNumber[j + 1];
-            arrayNumber[j + 1] = arrayNumber[j];
-            arrayNumber[j] = temp;
-
-          }
+          temp = array[j + 1];
+          array[j + 1] = array[j];
+          array[j] = temp;
         }
       }
+      return array;
+    }
 
-      Console.WriteLine("------------\n");
-
-
-      for (var i = 0; i < arrayNumber.Length; i++)
+    // print array
+    public static void PrintArray(int[] array)
+    {
+      for (var i = 0; i < array.Length; i++)
       {
-        Console.Write(arrayNumber[i]);
+        Console.Write(array[i]);
         Console.Write("  ");
       }
     }
   }
-
-
 }
